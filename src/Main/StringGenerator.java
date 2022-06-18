@@ -1,4 +1,4 @@
-package BruteForce;
+package Main;
 
 public class StringGenerator {
 

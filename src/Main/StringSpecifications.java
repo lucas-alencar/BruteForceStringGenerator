@@ -1,4 +1,4 @@
-package BruteForce;
+package Main;
 
 public class StringSpecifications {
 
@@ -8,8 +8,12 @@ public class StringSpecifications {
 
 	private boolean specialChars;
 
+	public StringSpecifications() {
+	}
 	public StringSpecifications(boolean specialChars, int minString, int maxString) {
-
+		this.minString = minString;
+		this.maxString = maxString;
+		this.specialChars = specialChars;
 	}
 
 }
