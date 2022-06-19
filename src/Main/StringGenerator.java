@@ -4,11 +4,12 @@ public class StringGenerator {
 
 	private StringSpecifications specifications;
 
-	public StringGenerator(StringSpecifications specifications) {
-
+	public StringGenerator() {
 	}
 
-	public boolean generate() {
+	public boolean generate(StringSpecifications stringSpecifications) {
+		this.specifications = stringSpecifications;
+		
 		return false;
 	}
 
